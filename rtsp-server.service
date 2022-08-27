@@ -1,0 +1,14 @@
+[Unit]
+Description=RPi HQ Camera RTSP Server
+After=network-online.target
+ 
+[Service]
+ExecStart=/bin/bash /home/davin/projects/rpi-hq-rtsp/rtsp-server.sh
+WorkingDirectory=/home/davin/projects/rpi-hq-rtsp
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=davin
+ 
+[Install]
+WantedBy=multi-user.target
