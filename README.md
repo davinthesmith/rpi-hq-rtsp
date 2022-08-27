@@ -1,6 +1,14 @@
 # Raspberry Pi High Quality Camera
 A basic service for starting the RTSP stream for a RPi HQ Camera
 
+## Installation steps
+1. Update the paths in `rtsp-server.service`
+1. Using root, copy the *service* file into `/lib/systemd/system/`
+``` bash
+sudo cp /home/davin/projects/rpi-hq-rtsp/rtsp-server.service /lib/systemd/system/
+```
+
+## Manual scripts for testing RTSP 
 ### Streaming RTSP
 Setup video stream on RPi
 ``` bash

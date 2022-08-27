@@ -8,7 +8,7 @@ WorkingDirectory=/home/davin/projects/rpi-hq-rtsp
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-User=davin
+User=pi
  
 [Install]
 WantedBy=multi-user.target
