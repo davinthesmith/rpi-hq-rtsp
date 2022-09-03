@@ -10,8 +10,9 @@ sudo cp /home/davin/projects/rpi-hq-rtsp/rtsp-server.service /lib/systemd/system
 
 ## Manual scripts for testing RTSP 
 ### Streaming RTSP
-Setup video stream on RPi
+Setup 1080 video stream on RPi (add -n flag to hide preview)
 ``` bash
+libcamera-vid --width 1920 --height 1080 -t 0 --inline -o - | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/rpi-hd}' :demux=h264
 libcamera-vid -t 0 --inline -o - | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/rpi-hd}' :demux=h264
 ```
 
