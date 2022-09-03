@@ -1,0 +1,45 @@
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, rtsp, from 'rtsp://ghoti.toomanyprojects.dev:8554/rpi-hd':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+  Duration: N/A, start: 5632.100278, bitrate: N/A
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080, 30 fps, 15 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x148d10000] [swscaler @ 0x158240000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x158250000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x158260000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x158270000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x158280000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x158290000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x1582a0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x1582b0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x1582c0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x1582d0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148d10000] [swscaler @ 0x1582e0000] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to '/Users/davin/Captures/ghoti_1662244500.jpg':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, progressive), 1920x1080, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [image2 @ 0x130a064f0] The specified filename '/Users/davin/Captures/ghoti_1662244500.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x130a064f0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+frame=    1 fps=0.0 q=6.0 Lsize=N/A time=00:00:00.06 bitrate=N/A dup=0 drop=1 speed=0.576x    
+video:81kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
