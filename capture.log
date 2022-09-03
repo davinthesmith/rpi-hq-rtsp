@@ -43,3 +43,232 @@ frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
 [image2 @ 0x130a064f0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
 frame=    1 fps=0.0 q=6.0 Lsize=N/A time=00:00:00.06 bitrate=N/A dup=0 drop=1 speed=0.576x    
 video:81kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, rtsp, from 'rtsp://ghoti.toomanyprojects.dev:8554/rpi-hd':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+  Duration: N/A, start: 5692.684744, bitrate: N/A
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080, 30 fps, 15 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x110558000] [swscaler @ 0x1207d0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x1207e0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120138000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120148000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120158000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120168000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120178000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x1207f0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120800000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120810000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x110558000] [swscaler @ 0x120820000] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to '/Users/davin/Captures/ghoti_1662244560.jpg':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, progressive), 1920x1080, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [image2 @ 0x10e806470] The specified filename '/Users/davin/Captures/ghoti_1662244560.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x10e806470] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+frame=    1 fps=0.0 q=6.5 Lsize=N/A time=00:00:00.06 bitrate=N/A dup=0 drop=10 speed=0.465x    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, rtsp, from 'rtsp://ghoti.toomanyprojects.dev:8554/rpi-hd':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+  Duration: N/A, start: 5752.792978, bitrate: N/A
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080, 30 fps, 15 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x1107c8000] [swscaler @ 0x1503a0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x1503b0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150038000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150048000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150058000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150068000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150078000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150088000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x150098000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x1500a8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1107c8000] [swscaler @ 0x1500b8000] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to '/Users/davin/Captures/ghoti_1662244620.jpg':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, progressive), 1920x1080, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [image2 @ 0x13bf05ad0] The specified filename '/Users/davin/Captures/ghoti_1662244620.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x13bf05ad0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+frame=    1 fps=0.0 q=6.0 Lsize=N/A time=00:00:00.06 bitrate=N/A dup=0 drop=12 speed=0.513x    
+video:83kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[rtsp @ 0x13f604e90] max delay reached. need to consume packet
+[rtsp @ 0x13f604e90] RTP: missed 1 packets
+[h264 @ 0x140a04650] concealing 4451 DC, 4451 AC, 4451 MV errors in P frame
+Input #0, rtsp, from 'rtsp://ghoti.toomanyprojects.dev:8554/rpi-hd':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+  Duration: N/A, start: 5812.973433, bitrate: N/A
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080, 30 fps, 15 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[h264 @ 0x140b5bd90] concealing 4451 DC, 4451 AC, 4451 MV errors in P frame
+[swscaler @ 0x148808000] [swscaler @ 0x148818000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148828000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148008000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148018000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148028000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148038000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148048000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148838000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148848000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148858000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x148808000] [swscaler @ 0x148868000] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to '/Users/davin/Captures/ghoti_1662244680.jpg':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, progressive), 1920x1080, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [image2 @ 0x140b060a0] The specified filename '/Users/davin/Captures/ghoti_1662244680.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x140b060a0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+frame=    1 fps=0.0 q=6.1 Lsize=N/A time=00:00:00.06 bitrate=N/A dup=0 drop=15 speed=0.59x    
+video:84kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, rtsp, from 'rtsp://ghoti.toomanyprojects.dev:8554/rpi-hd':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+  Duration: N/A, start: 5872.628111, bitrate: N/A
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080, 30 fps, 15 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x121758000] [swscaler @ 0x130ab0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x130dc8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x121768000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x121778000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x121788000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x121798000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x1217a8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x1217b8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x130108000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x130118000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x121758000] [swscaler @ 0x130128000] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to '/Users/davin/Captures/ghoti_1662244740.jpg':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, progressive), 1920x1080, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0x141007070] The specified filename '/Users/davin/Captures/ghoti_1662244740.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x141007070] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+frame=    1 fps=0.7 q=5.7 size=N/A time=00:00:01.26 bitrate=N/A speed=0.858x    frame=    1 fps=0.4 q=5.7 Lsize=N/A time=00:00:01.26 bitrate=N/A speed=0.494x    
+video:81kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, rtsp, from 'rtsp://ghoti.toomanyprojects.dev:8554/rpi-hd':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+  Duration: N/A, start: 5932.608289, bitrate: N/A
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080, 30 fps, 15 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x1506e0000] [swscaler @ 0x140690000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1406a0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1401c8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1401d8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1401e8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1401f8000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1406b0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1406c0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1406d0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1406e0000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1506e0000] [swscaler @ 0x1406f0000] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to '/Users/davin/Captures/ghoti_1662244800.jpg':
+  Metadata:
+    title           : Unnamed
+    comment         : N/A
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, progressive), 1920x1080, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [image2 @ 0x12380f9c0] The specified filename '/Users/davin/Captures/ghoti_1662244800.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x12380f9c0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+frame=    1 fps=0.0 q=6.1 Lsize=N/A time=00:00:00.06 bitrate=N/A dup=0 drop=10 speed=0.481x    
+video:84kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
